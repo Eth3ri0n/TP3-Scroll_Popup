@@ -1,10 +1,13 @@
 // Créer un événement au scroll
-// let scroll_Nav = 0;
+
+// ! let scroll_Nav = 0;
+
 // window.addEventListener("scroll", () => {
 //   console.log(scroll_Nav);
 
 //   if (window.scrollY > scroll_Nav) {
-// Réduire la navbar quand on descend vers le vite, la remettre à sa taille initiale si on remonte tout en haut
+
+// * Réduire la navbar quand on descend vers le bas, la remettre à sa taille initiale si on remonte tout en haut
 // navbar.style.height = "45px";
 
 // imgImprovise.style.opacity = '1';
@@ -14,14 +17,15 @@
 // popup.style.transform = 'translateX(0)';
 
 // } else {
-// Réduire la navbar quand on descend vers le vite, la remettre à sa taille initiale si on remonte tout en haut
+
+// * Réduire la navbar quand on descend vers le vite, la remettre à sa taille initiale si on remonte tout en haut
 // navbar.style.height = "90px";
 
-// Faire apparaitre l'image de la partie improvise
+// * Faire apparaitre l'image de la partie improvise
 // imgImprovise.style.opacity = '0';
 // imgImprovise.style.transform = 'translateX(-200px)';
 
-// Faire apparaitre la popup quand on est en bas du site
+// * Faire apparaitre la popup quand on est en bas du site
 // popup.style.opacity = '0';
 // popup.style.transform = 'translateX(400px)';
 //   }
